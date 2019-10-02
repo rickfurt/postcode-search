@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "Check postcode with AusPost API",
   "main": "index.js",
-  "private":true,
+  "private": true,
   "author": "Ricardo Furtado",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
