@@ -1,0 +1,9 @@
+{
+  "name": "postcode-search",
+  "version": "0.0.0",
+  "description": "Check postcode with AusPost API",
+  "main": "index.js",
+  "private":true,
+  "author": "Ricardo Furtado",
+  "license": "MIT"
+}
