@@ -8,6 +8,16 @@ After [cloning this repository](https://help.github.com/en/articles/cloning-a-re
 npm install
 ```
 
+## Linting
+
+Using [Prettier](https://prettier.io/) to format and standardise code style.
+
+### How to run?
+
+```shell
+npm run lint
+```
+
 ## Testing
 
 Using [Jest](https://jestjs.io/) as testing framework.
