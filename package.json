@@ -12,6 +12,7 @@
   "author": "Ricardo Furtado",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^6.5.1",
     "jest": "^24.9.0",
     "prettier": "^1.18.2"
   }
