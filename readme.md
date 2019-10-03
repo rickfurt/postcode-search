@@ -33,3 +33,9 @@ Using [Jest](https://jestjs.io/) as testing framework.
 ```shell
 npm test
 ```
+
+### How to continuously run?
+
+```shell
+npm run test:watch
+```
