@@ -16,6 +16,7 @@ jobs:
     - name: Test
       run: |
         npm install
+        npm run lint
         npm test
       env:
         CI: true
