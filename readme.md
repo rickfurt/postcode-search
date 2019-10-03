@@ -10,7 +10,7 @@ npm install
 
 ## Linting
 
-Using [Prettier](https://prettier.io/) to format and standardise code style.
+Using [Prettier](https://prettier.io/) and  [Eslint](https://eslint.org/) to format and standardise code style.
 
 ### How to run?
 
