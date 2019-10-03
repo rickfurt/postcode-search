@@ -18,6 +18,12 @@ Using [Prettier](https://prettier.io/) to format and standardise code style.
 npm run lint
 ```
 
+### How to fix?
+
+```shell
+npm run lint:fix
+```
+
 ## Testing
 
 Using [Jest](https://jestjs.io/) as testing framework.
