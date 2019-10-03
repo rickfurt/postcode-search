@@ -4,7 +4,8 @@
   "description": "Check postcode with AusPost API",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "prettier --check tests/**/*.js"
   },
   "private": true,
   "author": "Ricardo Furtado",
