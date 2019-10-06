@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "lint": "prettier --check tests/**/*.js && eslint tests/**/*.js",
-    "lint:fix": "prettier --write tests/**/*.js"
+    "lint": "prettier --check {src,tests}/**/*.js && eslint {src,tests}/**/*.js",
+    "lint:fix": "prettier --write {src,tests}/**/*.js"
   },
   "private": true,
   "author": "Ricardo Furtado",
