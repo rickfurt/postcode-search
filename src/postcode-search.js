@@ -1,5 +1,5 @@
 function postcodeSearch(dataProvider, postcode, suburb, state, callback) {
-  dataProvider.searchLocalities(postcode,suburb,state, function(localities) {
+  dataProvider.searchLocalities(postcode, suburb, state, function(localities) {
     if (localities.success === false) {
       callback({
         success: false,
