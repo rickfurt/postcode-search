@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 require("dotenv").config();
 
-function searchLocalities(postcode, callback) {
+function searchLocalities(postcode, suburb, state, callback) {
   fetch(
     `https://digitalapi.auspost.com.au/postcode/search.json?q=${postcode}`,
     {

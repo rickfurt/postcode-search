@@ -41,6 +41,16 @@ npm run test:watch
 ```
 ## Running application Server + Client simultaneously
 
+### Before run the server there's a prerequirement
+
+* In order to be able to use the AusPostAPI is need to setup the AUTH_KEY as an enviroment variable.
+
+To do that simply add a file called .env to the root's project and set the key to the variable.
+
+Example: AUTH_KEY='Here goes your api key'
+
+### Now we can run the application
+
 For this action the application is using [concurrently](https://www.npmjs.com/package/concurrently).
 
 Run:
@@ -50,13 +60,4 @@ npm run dev
 ```
 This command allows the user to run the server and client in one script only.
 
-although the same result can be expected running
-
-(Terminal 1)
-```shell
-npm run server
-```
-(Terminal 2)
-```shell
-npm run client
-```
+After this command simply open your browser on [this path](http://localhost/1234)
