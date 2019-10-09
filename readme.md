@@ -60,4 +60,4 @@ npm run dev
 ```
 This command allows the user to run the server and client in one script only.
 
-After this command simply open your browser on [this path](http://localhost/1234)
+After this command simply open your browser on [this path](http://localhost:1234)
