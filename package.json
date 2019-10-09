@@ -6,19 +6,31 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "lint": "prettier --check {src,tests}/**/*.js && eslint {src,tests}/**/*.js",
-    "lint:fix": "prettier --write {src,tests}/**/*.js"
+    "lint": "prettier --check {src,web,tests}/**/*.js && eslint {src,web,tests}/**/*.js",
+    "lint:fix": "prettier --write {src,web,tests}/**/*.js",
+    "client": "parcel web/index.html",
+    "server": "node src/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "private": true,
   "author": "Ricardo Furtado",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "concurrently": "^5.0.0",
     "eslint": "^6.5.1",
     "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-react": "^7.16.0",
     "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }
