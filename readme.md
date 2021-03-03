@@ -1,5 +1,15 @@
 # Postcode Search
 
+This project consists in an API integrated to AusPost to check if the Suburb name is valid or to check if the postcode is valid
+
+Stack:
++ [ReactJs](https://reactjs.org/)
++ [ExpressJs](http://expressjs.com/)
++ [Jest](https://jestjs.io/)
++ [Parcel](https://parceljs.org/)
++ [Github Actions](https://github.com/features/actions)
++ Others
+
 ## Getting started
 
 After [cloning this repository](https://help.github.com/en/articles/cloning-a-repository), run:
@@ -8,33 +18,17 @@ After [cloning this repository](https://help.github.com/en/articles/cloning-a-re
 npm install
 ```
 
-## Linting
-
-Using [Prettier](https://prettier.io/) and  [Eslint](https://eslint.org/) to format and standardise code style.
-
-### How to run?
-
-```shell
-npm run lint
-```
-
-### How to fix?
-
-```shell
-npm run lint:fix
-```
-
 ## Testing
 
 Using [Jest](https://jestjs.io/) as testing framework.
 
-### How to run?
+### How to run the tests?
 
 ```shell
 npm test
 ```
 
-### How to continuously run?
+### How to continuously run tests?
 
 ```shell
 npm run test:watch
@@ -48,6 +42,7 @@ npm run test:watch
 To do that simply add a file called .env to the root's project and set the key to the variable.
 
 Example: AUTH_KEY='Here goes your api key'
+
 
 ### Now we can run the application
 
