@@ -9,9 +9,8 @@
     "lint": "prettier --check {src,web,tests}/**/*.js && eslint {src,web,tests}/**/*.js",
     "lint:fix": "prettier --write {src,web,tests}/**/*.js",
     "client": "parcel web/index.html",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start":"node src/index.js",
-    "heroku-postbuild": "cd web && npm run client"
+    "server": "node src/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "private": true,
   "author": "Ricardo Furtado",
